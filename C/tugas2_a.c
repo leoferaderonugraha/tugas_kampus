@@ -15,5 +15,9 @@ int main()
 
   printf("nomor bulan: ");
   scanf("%d", &nomor_bulan);
-  printf("jumlah hari: %d\n", bulan[nomor_bulan-1]);
+  if (nomor_bulan < 1 || nomor_bulan > 12) {
+    fputs("Nomor bulan tidak valid.", stderr);
+  } else {
+    printf("jumlah hari: %d\n", bulan[nomor_bulan-1]);
+  }
 }
