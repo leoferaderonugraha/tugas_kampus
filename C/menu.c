@@ -1,3 +1,9 @@
+/* Judul  : Tampilkan menu selama user tidak memilih opsi keluar/exit
+ * Nama   : Leo Feradero Nugraha
+ * Kelas  : D
+ * NPM    : 0620101063
+ */
+
 #include <stdio.h>
 
 int main()
